@@ -19,9 +19,13 @@
       filelight
       discord
       heroic
-      ryujinx
+      whatsapp-for-linux
+      cheese
+      desmume
+      typora
       ;
 
+      vscode = pkgs.vscode.fhsWithPackages (ps: with ps; [ gdb gcc pkg-config ]);
 
   };
 }
