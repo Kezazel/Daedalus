@@ -23,6 +23,8 @@
       cheese
       desmume
       typora
+      wpsoffice
+      jetbrains.clion
       ;
 
       vscode = pkgs.vscode.fhsWithPackages (ps: with ps; [ gdb gcc pkg-config ]);
