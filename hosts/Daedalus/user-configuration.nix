@@ -4,7 +4,7 @@
     pkgs.bottles
     pkgs.winetricks
     pkgs.rconc
-    pkgs.filelight
+    pkgs.kdePackages.filelight
     pkgs.plasma-panel-colorizer
     pkgs.heroic
     pkgs.whatsapp-for-linux
